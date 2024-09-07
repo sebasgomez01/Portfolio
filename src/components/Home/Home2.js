@@ -20,7 +20,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sebasgomezp01"
+                  href="https://github.com/sebasgomez01"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -30,7 +30,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/sebastián-gómez-2b2777207"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
