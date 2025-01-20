@@ -11,14 +11,18 @@ import {
   DiLinux,
   DiCss3,
   DiHtml5,
+  DiPostgresql,
+  DiDocker,
 
 } from "react-icons/di";
 import {
   SiTypescript,
   SiSpring,
   SiSpringboot,
+  SiSpringsecurity,
   SiMariadb,
-  SiGnubash
+  SiGnubash,
+  SiVuedotjs
 } from "react-icons/si";
 
 
@@ -38,16 +42,16 @@ function Techstack() {
         <h3> Spring Boot </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiSpringsecurity />
+        <h3> Spring Security </h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
         <h3> C++ </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <h3> JavaScript </h3>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <h3> React </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
@@ -58,8 +62,32 @@ function Techstack() {
         <h3> NodeJS </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+        <h3> React </h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
+        <h3> VueJS </h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiLinux />
         <h3> Linux </h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGnubash/>
+        <h3> Bash </h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <h3> Git </h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+        <h3> Docker </h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+        <h3> PostgreSQL </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMariadb />
@@ -70,10 +98,6 @@ function Techstack() {
         <h3> Python </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-        <h3> Git </h3>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
         <h3> HTML </h3>
       </Col>
@@ -81,10 +105,7 @@ function Techstack() {
         <DiCss3 />
         <h3> CSS </h3>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGnubash/>
-        <h3> Bash </h3>
-      </Col>
+      
     </Row>
   );
 }
