@@ -5,7 +5,6 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiPython,
   DiGit,
   DiJava,
   DiLinux,
@@ -22,8 +21,10 @@ import {
   SiSpringsecurity,
   SiMariadb,
   SiGnubash,
-  SiVuedotjs
+  SiVuedotjs,
+  
 } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 
 
 function Techstack() {
@@ -94,8 +95,8 @@ function Techstack() {
         <h3> MariaDB </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-        <h3> Python </h3>
+        <GrMysql />
+        <h3> MySQL </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />

@@ -21,25 +21,12 @@ function AboutCard() {
               paradigms, such as functional, imperative, and object-oriented. 
               <br/>
               <br/>
-              Currently, I'm focusing on developing full stack web applications 
+              Currently, I'm working as a Software Engineer at RAY developing full-stack web applications 
               with <span className="purple">React</span> on the frontend and 
-              <span className="purple"> Spring Boot</span> on the backend, 
-              and I am looking for my first job experience in the world of programming.
+              <span className="purple"> Spring</span> on the backend. 
               <br />
               <br />
-              Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Play the guitar
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Read books
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Watch movies and anime
-            </li>
-          </ul>
 
         </blockquote>
       </Card.Body>

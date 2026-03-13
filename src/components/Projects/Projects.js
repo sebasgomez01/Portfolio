@@ -28,7 +28,7 @@ function Projects() {
               Authentication is handled using JSON Web Tokens (JWT). The frontend is built with JavaScript using Vue, and the database is
               PostgreSQL. For deployment I use Docker and Nginx."
               ghLink="https://github.com/sebasgomez01/readingTracker"
-              demoLink="https://reading-tracker.duckdns.org/"
+              //demoLink="https://reading-tracker.duckdns.org/"
             />
           </Col>
 
